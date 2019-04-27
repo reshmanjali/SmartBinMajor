@@ -4,5 +4,5 @@ The level of garbage in the dustbin is sensed with the help of ultra-sonic senso
 According to the garbage level in the bin, SMS alerts are sent to the garbage collector.
 (https://in.mathworks.com/help/thingspeak/use-ifttt-to-send-text-message-notification.html)
 An Android app is developed which
-  > displays the current level of garbage in the bin in an easily understandable manner
+  > displays the current level of garbage in the bin in an easily understandable manner and
   > navigates the user to the bin with the help of Google Maps

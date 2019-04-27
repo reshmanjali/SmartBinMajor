@@ -3,7 +3,7 @@ SoftwareSerial espSerial(10, 11);   //Pin 2 and 3 act as RX and TX. Connect them
 #define DEBUG true
 String mySSID = "yourWiFiNetwork";       // WiFi SSID
 String myPWD = "passwordOfYourWiFi"; // WiFi Password
-String myAPI = "25XPYXMZYMVYLZT5";   // API Key
+String myAPI = "XXXXXXXXYYYYYYYYYOURAPIKEY";   // API Key
 String myHOST = "api.thingspeak.com";
 String myPORT = "80";
 //String myFIELD = "field1"; 
@@ -35,7 +35,7 @@ void setup()
   {
     /* Here, I'm using the function random(range) to send a random value to the 
      ThingSpeak API. You can change this value to any sensor data
-     so that the API will show the sensor data  
+     so that the API will show the sensor data
     */
     
     long duration, inches;
